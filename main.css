@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.text-gradient {
+  font-size: 20vw;
+  background-image: 
+  linear-gradient(
+      110deg, 
+      #b721ff 0%,
+       #21d4fd 45%, 
+       #3dd3f5 50%, 
+       #21d4fd 55%, 
+       #b721ff 100%);
+  background-size: 100%;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
