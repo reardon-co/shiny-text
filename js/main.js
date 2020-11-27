@@ -27,24 +27,4 @@ text.addEventListener("mousemove", (event) => {
     '%)';
   
   text.style.backgroundImage = backgroundStyle;
-
-  console.log(backgroundStyle);
-  
-  /*
-  // Finding the slope of the mouse to the center
-  let centerX = text.offsetLeft + text.offsetWidth / 2;
-  let centerY = text.offsetTop + text.offsetHeight / 2;
-  let gradientSlope = Math.abs((event.pageY - centerY) / (event.pageX - centerX));
-  
-  // Giving the slope of the "default" gradient angle
-  let defaultSlope = 0;
-
-  // Calculating the angle between the two lines
-  let angOfInclGrad = Math.atan(gradientSlope);
-  //let angOfInclDef = Math.atan(defaultSlope);
-  //let angleInRads = angOfInclGrad - angOfInclDef;
-  let angleInDegrees = angOfInclGrad * (180 / Math.PI);
-
-  console.log(angleInDegrees);
-  */
 });
